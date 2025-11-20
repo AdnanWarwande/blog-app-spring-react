@@ -1,0 +1,40 @@
+﻿# ------------------------------------
+# FULL-STACK MONOREPO .gitignore
+# Placed in the root folder (blog-app-spring-react)
+# ------------------------------------
+
+# --- 1. Spring Boot / Java Exclusions ---
+# Compiled classes, targets, and logs
+**/target/
+**/build/
+*.jar
+*.war
+*.zip
+*.log
+
+# Maven / Gradle caches
+.gradle
+.mvn/wrapper/
+
+# --- 2. React / Node.js (Frontend) Exclusions ---
+# Dependency folders
+**/node_modules/
+
+# Compiled React output
+**/dist/
+**/build/
+
+# Other Node/npm files
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# --- 3. IDE & System Files ---
+.idea
+*.iws
+*.iml
+*.ipr
+.vscode/
+.DS_Store # macOS
+Thumbs.db # Windows
