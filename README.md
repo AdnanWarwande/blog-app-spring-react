@@ -1,4 +1,4 @@
-# 📝 Full-Stack Blogging Platform (Spring Boot & React Monorepo)
+# 📝 Full-Stack Blogging Platform (Spring Boot & React)
 
 This repository contains the complete source code for a responsive, full-stack blogging application. This project is structured as a Monorepo, separating the backend RESTful API services (Spring Boot) from the dynamic user interface (React).
 
