@@ -15,26 +15,6 @@ This application utilizes a modern, robust, and industry-standard technology sta
 | **Database** | **MySQL** |  Stores user data, posts, categories, and comments. |
 | **Security** | **Spring Security** | Implements role-based access control and JWT (JSON Web Token) authentication for secure API endpoints. |
 
-## 📁 Repository Structure (Monorepo)
-
-The project follows a standard monorepo structure, making it easy to manage both codebases under a single version control system.
-
-blog-app-spring-react/
-
-|├── .git/|
-|├── .gitignore                      # Single file ignoring dependencies (node_modules, target, etc.)|
-|├── README.md                       # This file|
-|├── Backend-Blogging-Application-main/  # ⬅️ Spring Boot API (Java/Maven Project)|
-|│   ├── src/|
-|│   ├── pom.xml|
-|│   └── ...|
-|└── blog-app-main/                  # ⬅️ React User Interface (Node/NPM Project)|
-|├── public/|
-|├── src/|
-|├── package.json|
-|└── ...|
-
-
 ## ⚙️ Setup and Installation Guide
 
 To run this application locally, you must set up both the backend and frontend components.
