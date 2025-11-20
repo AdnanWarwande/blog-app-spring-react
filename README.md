@@ -19,7 +19,20 @@ This application utilizes a modern, robust, and industry-standard technology sta
 
 The project follows a standard monorepo structure, making it easy to manage both codebases under a single version control system.
 
-blog-app-spring-react/ ├── .git/ ├── .gitignore # Single file ignoring dependencies (node_modules, target, etc.) ├── README.md # This file ├── Backend-Blogging-Application-main/ # ⬅️ Spring Boot API (Java/Maven Project) │ ├── src/ │ ├── pom.xml │ └── ... └── blog-app-main/ # ⬅️ React User Interface (Node/NPM Project) ├── public/ ├── src/ ├── package.json └── ...
+blog-app-spring-react/
+
+├── .git/
+├── .gitignore                      # Single file ignoring dependencies (node_modules, target, etc.)
+├── README.md                       # This file
+├── Backend-Blogging-Application-main/  # ⬅️ Spring Boot API (Java/Maven Project)
+│   ├── src/
+│   ├── pom.xml
+│   └── ...
+└── blog-app-main/                  # ⬅️ React User Interface (Node/NPM Project)
+├── public/
+├── src/
+├── package.json
+└── ...
 
 
 ## ⚙️ Setup and Installation Guide
